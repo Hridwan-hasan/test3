@@ -1,0 +1,1348 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; */
+/* gloval-css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.gloval-h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.gloval-p{
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+
+/* header is here */
+
+
+#header{
+    width: 100%;
+    float: left;
+    background: url(../img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.top-part{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.logo-part{
+    width: 24%;
+    float: left;
+    padding-left: 50px;
+}
+.logo-part img{
+
+}
+.menu-part{
+    width: 40%;
+    float: left;
+    margin-top: 8px;
+}
+.menu-part nav{
+    text-align: center;
+    margin-left: 35px;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    }
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+font-weight: 500;font-family: 'Dosis', sans-serif;}
+.btn-nav-part{
+    width: 30%;
+    float: left;
+    padding-left: 255px;
+}
+.btn-nav-part a button{
+    padding: 7px 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 500;border-style: none;
+    font-family: 'Dosis', sans-serif;
+    background-color: #00fff0;
+    color: #233148;
+}
+.nav-bar{
+    margin-top: 14px;width: 5%;
+    float: left;
+color: #00fff1;margin-left: 11px;}
+.hero-part{
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+.hero-wp{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-left: 164px;
+    margin-top: 135px;
+}
+.hero-wp h1{
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 500;}
+.hero-wp p{
+    text-align: justify;
+    max-width: 74%;
+    color: white;
+    margin-bottom: 45px;
+    line-height: 1.5rem;
+    color: #808da6;}
+.hero-btn{
+    float: left;
+}
+.btn-d-f-t{
+    float: left;
+    margin-right: 25px;
+}
+.btn-d-f-t a button{
+    padding: 10px 12px;
+    cursor: pointer;
+    border: 2px solid #223047;
+    box-shadow: 1px 1px 10px #00fff1;border-radius: 6px;
+    background-color: #00fff0;
+    font-family: 'Dosis', sans-serif;}
+.btn-r-o-t-u{
+    float: left;
+}
+.btn-r-o-t-u a button{
+    padding: 10px 12px;
+    cursor: pointer;
+    
+    
+    border-radius: 6px;box-shadow: 1px 1px 10px #00fff0;border: 2px solid white;background-color: #223047;
+    color: white;font-family: 'Dosis', sans-serif;}
+.hero-ip{
+    width: 50%;
+    float: left;
+}
+.hero-ip img{
+    margin-left: 152px;
+    position: relative;
+    top: 85px;
+}
+
+/* service part is here */
+
+#service{
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 57px;
+}
+.service-wp{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 66px;
+}
+.service-wp h1{
+    
+    padding-bottom: 11px;
+    color: #233148;
+    font-size: 30px;
+    font-weight: 500;
+}
+.service-box-part{
+    width: 100%;
+    float: left;
+}
+.service-all-box{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.service-box{
+    width: 20%;
+    float: left;
+    box-shadow: 1px 1px 10px #00fff161;
+    margin-left: 50px;
+}
+.service-box img{
+    margin-top: 30px;
+}
+.service-box h1{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    color: #233148;
+}
+.service-box p{
+    text-align: justify;
+    max-width: 90%;
+    margin-left: 10px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    color: #97a4be;font-size: 18px;
+}
+
+
+/* company info is here */
+
+#company-info{
+    width: 100%;
+    float: left;
+    background: url(../img/company-info-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.company-img-part{
+    width: 50%;
+    float: left;
+}
+.company-img{
+    
+}
+.company-img img{
+    width: 100%;
+    position: relative;
+    right: 61px;
+}
+.company-wp{
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+    padding-left: 40px;
+}
+.company-wp h1{
+    margin-bottom: 29px;
+    font-weight: 500;
+    font-size: 30px;
+color: #233148;}
+.company-wp p{
+    max-width: 71%;
+    color: #97a4be;
+    text-align: justify;
+}
+
+/* app preparation id here */
+
+
+#app-presentation{
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+
+/* pre-top part */
+
+.pre-top-part{
+    width: 100%;
+    float: left;
+}
+.presentation-wp{
+    width: 50%;
+    float: left;
+    text-align: end;
+    padding-right: 70px;
+}
+.presentation-wp h1{
+    margin-bottom: 31px;
+    font-weight: 500;
+    font-size: 29px;
+}
+.presentation-wp p{
+    text-align: justify;
+    margin-left: 169px;
+    margin-bottom: 35px;
+    color: #97a4be;
+}
+.presentation-btn{
+
+}
+.presentation-btn a{
+
+}
+.presentation-btn a button{
+    padding: 10px 12px;
+    font-family: 'Dosis', sans-serif;
+    border-style: none;
+    border: 2px solid #233148;border-radius: 6px;
+    box-shadow: 1px 1px 10px #00fff0;cursor: pointer;
+    background-color: #00fff0;
+}
+.presentation-ip{
+    width: 50%;
+    float: left;
+}
+.presentation-image{
+
+}
+.presentation-image img{
+    width: 80%;
+    margin-left: 30px;
+}
+
+
+/* middle part is here */
+
+#middle{
+    width: 100%;
+    float: left;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+.middle-i-p{
+    width: 50%;
+    float: left;
+}
+.middle-i-p img{
+    width: 66%;
+    position: relative;
+    top: 72px;
+    left: 139px;
+}
+.middle-b-p{
+    width: 50%;
+    float: left;
+    margin-top: 53px;
+}
+.middle-all-box{
+    width: 80%;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.middle-box{
+    box-shadow: 0px 7px 18px 0px #0000001a;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.middle-box1{
+    box-shadow: 0px 9px 12px #00fff063;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #00fff0;
+}
+
+.middle-box img{
+    float: left;
+    margin-left: 34px;
+}
+.middle-box1 img{
+    float: left;
+    margin-left: 34px;
+}
+.middle-box h1{
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #233148;
+}
+.middle-box1 h1{
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #233148;
+}
+.middle-box p{
+    text-align: justify;
+    max-width: 65%;
+    margin-top: 6px;
+    margin-left: 90px;
+}
+.middle-box1 p{
+    text-align: justify;
+    max-width: 65%;
+    margin-top: 6px;
+    margin-left: 90px;
+    color: #233148;
+}
+.middle-love{
+
+}
+.middle-tag{
+
+}
+.middle-bag{
+
+}
+.middle-pencil{
+    
+}
+
+
+/* bottom part is here */
+
+
+#bottom{
+    width: 100%;
+    float: left;
+    background: url(../img/bottom-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+}
+.bottom-wp{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    padding-right: 100px;
+}
+.bottom-wp h1{
+    margin-bottom: 50px;
+    font-size: 29px;
+    font-weight: 500;
+    text-align: end;
+color: #233148;}
+.bottom-wp p{
+    padding-left: 164px;
+    margin-top: 32px;
+    color: #97a4be;
+padding-bottom: 15px;}
+.bottom-wp-input{
+    margin-left: 358px;
+}
+.bottom-wp-input input{
+
+}
+.Android{
+    font-family: 'Dosis', sans-serif;
+}
+.Android input{
+    margin-bottom: 20px;
+}
+.iPhone{
+
+}
+.iPhone input{
+
+}
+.bottom-ip{
+    width: 50%;
+    float: left;
+}
+.bottom-ip img{
+    width: 85%;
+}
+
+
+
+/* watch video is here */
+
+#watch-vp{
+    width: 100%;
+    float: left;
+    background: url(../img/video-part-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 121px;
+}
+.logo-and-wp{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.logo-and-wp img{
+    /* margin-left: 186px; */
+}
+.logo-and-wp h4{
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+.logo-and-wp p{
+    max-width: 50%;
+    margin-left: 315px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* DOWNLOAD IS HERE */
+
+
+#download{
+    width: 100%;
+    float: left;
+    background: url(../img/DOWNLOAD-DESIGN.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 209px;
+}
+.download-wp{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.download-wp h1{
+    margin-bottom: 38px;
+    font-size: 29px;
+    font-weight: 500;
+color: #233148;}
+.download-wp p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.download-part-btn{
+
+}
+.download-part-btn a{
+
+}
+.download-part-btn a button{
+    padding: 10px 35px;
+    cursor: pointer;margin-top: 30px;
+    background-color: #00fff0;
+    border-style: none;
+    box-shadow: 1px 1px 10px #00fff0;border: 2px solid #223047;border-radius: 6px;
+}
+
+/* quote is here */
+
+#quote{
+    width: 100%;
+    float: left;
+    background: url(../img/quote.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.quote-wp{
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+.quote-wp p{
+    color: #00fff1;
+    text-align: center;
+    max-width: 60%;
+    margin-left: 240px;
+    font-weight: 500;
+}
+
+
+/* app add part is here */
+#App-add{
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: url(../img/add-app-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.App-add-image{
+    width: 50%;
+    float: left;
+    text-align: end;
+}
+.App-add-image img{
+    padding-right: 60px;
+}
+.App-add-wp{
+    width: 50%;
+    float: left;
+    margin-top: 130px;
+    padding-left: 23px;
+}
+.App-add-wp h1{
+    margin-bottom: 23px;
+    font-size: 29px;
+    font-weight: 500;
+}
+.App-add-wp p{
+    margin-bottom: 40px;
+    max-width: 75%;
+    line-height: 1.7;
+    color: #97a4be;
+}
+.App-add-wp-images{
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+}
+.App-add-image1{
+    float: left;
+}
+.App-add-image1 img{
+    width: 70%;
+cursor: pointer;}
+.App-add-wp-image2{
+    float: left;
+    margin-left: -18px;
+cursor: pointer;}
+.App-add-wp-image2 img{
+    width: 70%;
+}
+.App-add-btn{
+    width: 100%;
+    float: left;
+}
+.App-add-btn a{
+
+}
+.App-add-btn a button{
+    padding: 14px 70px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 16px 0px #00fff19c;
+    background-color: #00fff1;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    top: 226px;
+    right: 120px;
+}
+
+
+/* footer-top part is here */
+
+
+#footer-top{
+    width: 99%;
+    float: left;
+    padding-top: 115px;
+}
+.footer-top-wp{
+    width: 100%;
+    float: left;
+    text-align: justify;
+    margin-left: 63px;
+}
+.footer-company{
+    width: 20%;
+    float: left;
+}
+.footer-company h1{
+
+}
+.footer-company ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.footer-company ul a{
+    text-align: justify;
+    text-decoration: none;
+}
+.footer-company ul a li{
+    color: #97a4be;
+}
+.footer-development{
+    width: 20%;
+    float: left;
+}
+.footer-development h1{
+
+}
+.footer-development ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.footer-development ul a{
+    text-align: justify;
+    text-decoration: none;
+}
+.footer-development ul a li{
+    color: #97a4be;
+}
+.footer-marketing{
+    width: 20%;
+    float: left;
+}
+.footer-marketing h1{
+
+}
+.footer-marketing ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.footer-marketing ul a{
+    text-decoration: none;
+}
+.footer-marketing ul a li{
+    color: #97a4be;
+}
+.footer-community{
+    width: 20%;
+    float: left;
+}
+.footer-community h1{
+
+}
+.footer-community ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.footer-community ul a{
+    text-decoration: none;
+}
+.footer-community ul a li{
+    color: #97a4be;
+}
+.footer-info{
+    width: 20%;
+    float: left;
+}
+.footer-info h1{
+
+}
+.footer-info ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.footer-info ul a{
+    text-decoration: none;
+}
+.footer-info ul a li{
+    color: #97a4be;
+}
+
+
+
+/* git is here */
+
+
+#Git{
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Git-wp{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.Git-wp h1{
+    margin-bottom: 20px;
+}
+.Git-wp p{
+    text-align: center;
+    color: #97a4be;
+    margin-bottom: 50px;
+}
+.Git-input-btn{
+    width: 100%;
+    float: left;
+}
+.Git-inpt{
+    float: left;
+    padding-left: 290px;
+}
+.Git-inpt input{
+    padding: 9px 141px;
+    border-style: none;
+    box-shadow: 1px 1px 7px 0px #0000002b;
+}
+.Git-btn{
+    float: left;
+    margin-left: 39px;
+}
+.Git-btn a{
+
+}
+.Git-btn a button{
+    padding: 9px 38px;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 0px 5px 10px #00fff17d;
+    background-color: #00fff1;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+
+/* footer bottom is here */
+
+
+#footer-bottom{
+    width: 100%;
+    float: left;
+    background: url(../img/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;}
+.footer-buttom-wp{
+    width: 50%;
+    float: left;
+}
+.footer-buttom-wp p{
+    
+padding-left: 165px;color: #00fff1;}
+.footer-bottom-icon{
+    width: 30%;
+    float: left;
+text-align: end;}
+.f-facebook{
+    width: 20%;
+    color: white;float: left;
+}
+.f-twitter{
+    width: 20%;
+    color: white;float: left;
+}
+.f-chrome{
+    width: 20%;
+    color: white;float:left;
+}
+.f-google-plus{
+    width: 20%;
+    float: left;
+color: white;}
+.f-youtube{
+    width: 20%;
+    float: left;
+color: white;
+}
+
+
+    /* main css end */
+    
+    
+    /* Responsive start */
+    
+    /* mobile device */
+    
+    @media (min-width: 300px) and (max-width: 600px){
+        #header{
+    
+        /* width: 100%; */padding-bottom: 16px;}
+        .top-part{
+    
+        padding: 10px 0px;}
+        .logo-part{
+            
+        width: 15%;margin-top: 22px;float: left;padding-left: 20px;}
+        .logo-part img{
+    
+        width: 60px;}
+        .menu-part{
+    
+        width: 30%;}
+        .menu-part nav{
+    
+        padding-left: 10px;}
+        .menu-part nav ul{
+    
+        }
+        .menu-part nav ul li{
+    
+        }
+        .menu-part nav ul li a{
+    
+        font-size: 16px;}
+        .btn-nav-part a button{
+    
+        font-size: 12px;padding: 9px;}
+        .nav-bar{
+    
+        margin-left: 50px;margin-top: 30px;}
+        .btn-nav-part{
+            
+        width: 25%;margin-top: 10px;float: left;margin-left: -140px;}
+        .hero-part{
+    
+        }
+        .hero-wp{
+            
+        width: 100%;text-align: center;/* margin-left: 35px; */padding-left: 0px;padding-right: 0px;padding-top: 0px;}
+        .hero-wp h1{
+    
+        /* font-size: 20px; */padding-right: 5px;}
+        .hero-wp p{
+    
+        margin-left: 47px;}
+        .hero-btn{
+    
+        margin-left: 60px;}
+        .btn-d-f-t{
+    
+        }
+        .btn-d-f-t a button{
+    
+        padding: 7px;font-size: 11px;}
+        .btn-r-o-t-u{
+    
+        }
+        .btn-r-o-t-u a button{
+    
+        padding: 7px;font-size: 11px;}
+        .hero-ip{
+    
+        /* width: 76%; */margin-left: -39px;}
+        .hero-ip img{
+    
+        width: 80%;/* position: static; */padding-right: 15px;}
+    
+        /* service part is here */
+    
+        #service{
+    
+        }
+        .service-wp{
+    
+        }
+        ..service-wp h1{
+    
+        }
+        .service-box-part{
+    
+        /* margin-left: 50px; */padding-top: 49px;padding-left: 60px;}
+        .service-all-box{
+    
+        width: 100%;margin: 0;margin-left: 0px;}
+        .service-box{
+    
+        width: 80%;margin: 0;margin-bottom: 30px;}
+        .service-box img{
+    
+        }
+        .service-box h1{
+    
+        }
+        .service-box p{
+    
+        }
+    
+    
+        /* company info is here */
+        
+        #company-info{
+    
+        }
+        .company-img-part{
+    
+        width: 100%;/* margin-left: 65px; */}
+        .company-img{
+    
+        width: 100%;}
+        .company-img img{
+            
+        position: static;}
+        .company-wp{
+    
+        width: 100%;margin-left: 16px;}
+        .company-wp h1{
+    
+        padding-left: 5px;}
+        .company-wp p{
+    
+        padding-bottom: 40px;/* max-width: 93%; *//* padding-right: 24px; */margin-left: 7px;}
+    
+        /* app preparation id here */
+        
+        #app-presentation{
+    
+        }
+        .pre-top-part{
+    
+        }
+        .presentation-wp{
+    
+        width: 100%;}
+        .presentation-wp h1{
+    
+        padding-right: 11px;}
+        .presentation-wp p{
+    
+        width: 100%;margin-left: 36px;/* padding-right: 74px; */}
+        .presentation-btn{
+    
+        padding-right: 45px;margin-bottom: 15px;}
+        .presentation-btn a{
+    
+        }
+        .presentation-btn a button{
+    
+        padding: 7px;font-size: 11px;}
+        .presentation-ip{
+    
+        width: 100%;/* margin-left: -28px; */}
+        .presentation-image{
+    
+        /* width: 100%; */}
+        .presentation-image img{
+    
+        /* width: 100%; */}
+    
+    
+        /* middle is here */
+    
+        #middle{
+    
+        width: 100%;}
+        .middle-i-p{
+    
+        margin-left: -75px;width: 100%;}
+        .middle-i-p img{
+    
+        margin-bottom: 50px;}
+        .middle-b-p{
+    
+        width: 100%;margin-left: -25px;}
+        .middle-all-box{
+    
+        width: 100%;}
+        .middle-box{
+    
+        width: 100%;}
+        .middle-box1{
+    
+        width: 100%;}
+        .middle-box img{
+    
+        }
+        .middle-box1 img{
+    
+        }
+        .middle-box h1{
+    
+        }
+        .middle-box1 h1{
+    
+        }
+        .middle-box p{
+    
+        }
+        .middle-box1 p{
+    
+        }
+        .middle-love{
+    
+        width: 100%;}
+        .middle-tag{
+        
+        width: 90%;}
+        .middle-bag{
+        
+        }
+        .middle-pencil{
+            
+        width: 100%;}
+    
+        /* bottom part is here */
+    
+        #bottom{
+    
+        width: 100%;}
+        .bottom-wp{
+    
+        width: 100%;}
+        .bottom-wp h1{
+    
+        width: 100%;text-align: center;margin-left: 50px;}
+        .bottom-wp p{
+    
+        width: 100%;padding: 0;margin-left: 50px;margin-bottom: 16px;}
+        .bottom-wp-input{
+    
+        margin: auto;padding-left: 91px;text-align: center;}
+        .bottom-wp-input input{
+    
+        }
+        .Android{
+    
+        width: 100%;}
+        .Android input{
+    
+        }
+        .iPhone{
+    
+        width: 100%;}
+        .iPhone input{
+    
+        }
+        .bottom-ip{
+    
+        width: 100%;}
+        .bottom-ip img{
+
+        margin-left: 30px;}
+    
+    
+        /* watch video is here */
+        
+    
+        #watch-vp{
+    
+        width: 100%;text-align: center;}
+        .logo-and-wp{
+    
+        }
+        .logo-and-wp{
+            
+        width: 100%;}
+        .logo-and-wp img{
+    
+        padding-right: 10px;}
+        .logo-and-wp h4{
+    
+        padding-right: 12px;}
+        .logo-and-wp p{
+    
+        margin: 0;max-width: 70%;margin-left: 53px;}
+        
+    
+        /* download is here */
+    
+    
+        #download{
+    
+        /* width: 100%; */}
+        .download-wp{
+    
+        }
+        .download-wp h1{
+    
+        }
+        .download-wp p{
+    
+        }
+        .download-part-btn{
+    
+        }
+        .download-part-btn a{
+        
+        }
+        .download-part-btn a button{
+        
+        font-size: 11px;padding: 10px 20px;}
+    
+    
+        /* quote is here */
+    
+        #quote{
+    
+        /* width: 100%; */}
+        .quote-wp{
+    
+        width: 100%;}
+        .quote-wp p{
+    
+        width: 100%;margin-left: 24px;margin: 0;max-width: 100%;}
+    
+    
+        /* app add part */
+    
+    
+        #App-add{
+    
+        }
+        .App-add-image{
+    
+        width: 100%;}
+        .App-add-image img{
+    
+        width: 85%;margin-left: 9px;}
+        .App-add-wp{
+    
+        width: 100%;padding: 0;text-align: center;}
+        .App-add-wp h1{
+    
+        }
+        .App-add-wp p{
+    
+        margin-left: 43px;}
+        .App-add-wp-images{
+    
+        }
+        .App-add-image1{
+    
+        width: 34%;margin-left: 59px;}
+        .App-add-image1 img{
+    
+        }
+        .App-add-wp-image2{
+    
+        width: 35%;margin-left: 0px;}
+        .App-add-wp-image2 img{
+    
+        }
+        .App-add-btn{
+    
+        position: relative;top: 96px;left: 6px;}
+        .App-add-btn a{
+    
+        }
+        .App-add-btn a button{
+    
+        position: static;padding: 10px 11px;font-size: 11px;}
+    
+    
+        /* footer is here */
+    
+        #footer-top{
+    
+        /* width: 100%; */}
+        .footer-top-wp{
+    
+        width: 100%;text-align: center;margin: 0;}
+        .footer-company{
+    
+        /* width: 18%; */font-size: 9px;/* padding-left: 4px; */}
+        .footer-company h1{
+    
+        }
+        .footer-company ul{
+    
+        margin-left: 14px;}
+        .footer-company ul a{
+    
+        }
+        .footer-company ul a li{
+    
+        }
+        .footer-development{
+    
+        font-size: 9px;}
+        .footer-development h1{
+    
+        }
+        .footer-development ul{
+    
+        margin-left: 1px;}
+        .footer-development ul a{
+    
+        }
+        .footer-development ul a li{
+    
+        }
+        .footer-marketing{
+    
+        font-size: 9px;/* margin-left: 7px; *//* padding-left: 15px; */}
+        .footer-marketing h1{
+    
+        }
+        .footer-marketing ul{
+            
+        text-align: justify;margin-left: 9px;}
+        .footer-marketing ul a{
+    
+        }
+        .footer-marketing ul a li{
+    
+        }
+        .footer-community{
+    
+        font-size: 9px;/* padding-left: 18px; */}
+        .footer-community h1{
+    
+        }
+        .footer-community ul{
+    
+        padding-right: 31px;}
+        .footer-community ul a{
+    
+        }
+        .footer-community ul a li{
+    
+        }
+        .footer-info{
+    
+        font-size: 9px;/* padding-left: 30px; */}
+        .footer-info h1{
+    
+        }
+        .footer-info ul{
+    
+        }
+        .footer-info ul a{
+    
+        }
+        .footer-info ul a li{
+    
+        }
+    
+    
+        /* git is here */
+    
+        #Git{
+    
+        width: 100%;}
+        .Git-wp{
+    
+        width: 100%;}
+        .Git-wp h1{
+    
+        }
+        .Git-wp p{
+    
+        }
+        .Git-input-btn{
+    
+        /* margin-left: 56px; */width: 100%;padding-left: 25px;margin-left: 4px;}
+        .Git-inpt{
+            
+        width: 56%;padding: 0;margin-left: 17px;}
+        .Git-inpt input{
+    
+        padding: 5px 0px;/* width: 10%; */}
+        .Git-btn{
+    
+        width: 40%;/* margin: -2px; */margin-left: -4px;}
+        .Git-btn a{
+    
+        /* width: 50%; */}
+        .Git-btn a button{
+    
+        font-size: 11px;padding: 5px 10px;}
+    
+    
+        /* footer-bottom is here */
+    
+        #footer-bottom{
+    
+        width: 100%;}
+        .footer-buttom-wp{
+    
+        width: 50%;}
+        .footer-buttom-wp p{
+    
+        padding: 0;font-size: 10px;}
+        .footer-bottom-icon{
+    
+        width: 50%;}
+        .f-facebook{
+    
+        width: 10%;}
+        .f-twitter{
+    
+        }
+        .f-chrome{
+    
+        }
+        .f-google-plus{
+    
+        }
+        .f-youtube{
+    
+        }
+        .footer-bottom-icon i{
+            
+        font-size: 10px;}
+    }
